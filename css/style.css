@@ -23,3 +23,50 @@ img{
 html {
   font-size: 62.5%
 }
+
+.section{
+  background-color: #9B8F89;
+  padding: 5rem;
+  min-height: 100vh;
+
+  @media only screen and (max-width: 37.5em) {
+    padding: 0;
+  }
+}
+
+.container{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5rem;
+
+  border-radius: 15px;
+  max-width: 60rem;
+}
+
+.headerTitle{
+  font-size: 3rem;
+}
+
+.headerParagraph{
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.button{
+  width: 20%;
+  height: auto;
+  font-size: 1rem;
+  margin: 1rem;
+  border-radius: .5rem;
+}

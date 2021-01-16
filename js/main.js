@@ -38,4 +38,6 @@ function divideNums() {
 function clearNums() {
   document.getElementById("firstNumber").value = "";
   document.getElementById("secondNumber").value = "";
+  const answer = ""
+  document.querySelector('#answerHere').innerText = answer
 }
