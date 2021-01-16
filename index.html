@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
       <meta charset="utf-8">
-      <meta name="Sign Generator" content="Takes input as the date, and outputs your zodiac sign, and a description of that sign.">
+      <meta name="Calculator" content="Takes two numbers as inputs, and uses +, -, *, or /, to find the final result">
       <meta name="keywords" content="one, two, three">
     <title>Calculator</title>
 
@@ -13,16 +13,21 @@
     <div class="section">
       <div class="container">
         <div class="header">
-          <h1 class="headerTitle">Calculatorn</h1>
-          <p class="headerParagraph">Please enter in your numbers in the simple calculator below.</p>
+          <h1 class="headerTitle">Calculator</h1>
+          <p class="headerParagraph">Please enter in your first and second numbers in the simple calculator below.</p>
         </div>
         <div class="input">
-          <input type="" name="month" id="month" value="">
-          <input type="" name="day" id="day" value="">
-          <button type='button' id="click">Result!</button>
+          <input type="number" name="firstNumber" id="firstNumber" placeholder="Enter First Number">
+          <input type="number" name="secondNumber" id="secondNumber" placeholder="Enter Second Number">
+          <button type='button' id="add">+</button>
+          <button type='button' id="sub">-</button>
+          <button type='button' id="multi">*</button>
+          <button type='button' id="divide">/</button>
+          <button type='button' id="clear">Clear</button>
+
         </div>
         <div class="calculator">
-          <h2 id="signHere"></h2>
+          <h2 id="answerHere"></h2>
         </div>
       </div>
     </div>
